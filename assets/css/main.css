@@ -3,7 +3,8 @@
 /*===================font==========================*/
 @font-face {
   font-family: didot;
-  src: url("../didot-italic.ttf"); }
+  src: url("../didot-italic.ttf");
+  font-display: swap; }
 
 /*===================bg-image==========================*/
 body {
@@ -270,6 +271,10 @@ footer {
   padding: 0 8px;
   color: #F2F3F3; }
 
+#iconos a {
+  text-decoration: none;
+  color: white; }
+
 .form-label {
   color: #FFFF00; }
 
@@ -334,12 +339,12 @@ header {
 
 /*===================index content==========================*/
 .carousel-caption {
-  bottom: 100px; }
+  bottom: 40px; }
   .carousel-caption h3 {
     color: yellow;
     font-size: 45px;
     letter-spacing: 2px;
-    margin-top: 25px; }
+    margin-top: auto; }
   .carousel-caption p {
     width: 60%;
     margin: auto;
